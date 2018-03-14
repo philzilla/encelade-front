@@ -13,17 +13,6 @@ body {
 
 }
 
-.clearfix {
-    zoom: 1;
-}
-
-.clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
 
 
 /* ----------------------------------------------- */
@@ -37,10 +26,6 @@ body {
 
 section {
     padding: 20px 0;
-}
-
-.box {
-    padding: 1%;
 }
 
 
@@ -109,7 +94,6 @@ header {
 .topbar {
   background-color: #fff;
   padding: 10px 10px;
-  position: relative;
   height: 20px;
     font-size: 80%;
     font-weight: 700;
@@ -142,14 +126,6 @@ header {
     margin-top: 4px;
 }
 
-.logo-black {
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
-
 
 /* Main menu */
 nav {
@@ -159,7 +135,6 @@ nav {
 
 
 .main-nav {
-    float: right;
     list-style: none;
     margin-top: 55px;
 }
