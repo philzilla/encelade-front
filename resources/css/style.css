@@ -90,102 +90,6 @@ h5 {
 }
 
 
-/* ----- PARAGRAPHE ----- */
-
-.long-copy {
-    line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
-}
-
-.box p {
-    font-size: 90%;
-    line-height: 145%;
-}
-
-
-/* ----- ICONS ----- */
-
-.icon-big {
-    font-size: 350%;
-    display: block;
-    color: #e67e22;
-    margin-bottom: 10px;
-}
-
-.icon-small {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #e67e22;
-    font-size: 120%;
-    margin-right: 10px;
-    /* Aligner textes et icônes*/
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
-}
-
-.icon-catalogue {
-    display: inline-block;
-    float: left;
-    width: 30px;
-    margin-right: 10px;
-}
-
-.icon-comment {
-    width: 100px;
-    margin: 0 auto;
-}
-
-.icon-atelier {
-    width: 20%;
-    margin: 0 auto;
-}
-
-
-/* ----- LIENS ----- */
-
-
-a:link,
-a:visited {
-    color: #e67e22;
-    text-decoration: none;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
-}
-
-a:hover,
-a:active {
-    color: #555;
-    border-bottom: 1px solid transparent;
-}
-
-
-/* ----- BOUTONS ----- */
-
-.btn:link,
-.btn:visited,
-input[type=submit] {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited,
-input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
-    margin-right: 15px;
-}
 
 
 
@@ -211,13 +115,7 @@ header {
     font-weight: 700;
 }
 
-.topbar .switch-profil {
-  position: absolute;
-  top: 0;
-  right: 0;
-   margin: 10px 10px;
 
-}
 
 
 
